@@ -1,0 +1,13 @@
+Patching_day,Patching_Group,Server/Configuration Item
+Day_03,Dev_1,Dev123
+Day_03,Dev_1,Dev456
+Day_03,Dev_1,Dev789
+Day_04,QA/UAT_1,Dev321
+Day_04,QA/UAT_1,Dev654
+Day_04,QA/UAT_1,Dev987
+Day_05,PROD_2,Prod123
+Day_05,PROD_2,Prod456
+Day_05,PROD_2,Prod789
+Day_06,PROD_3,Prod147
+Day_06,PROD_3,Prod258
+Day_06,PROD_3,Prod369
