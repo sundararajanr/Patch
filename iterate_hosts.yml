@@ -1,0 +1,50 @@
+---
+
+  - patching_day: 'Day_03'
+    patching_group: 'DEV_1'
+    server: 'Dev123'
+  
+  - patching_day: 'Day_03'
+    patching_group: 'DEV_1'
+    server: 'Dev456'
+  
+  - patching_day: 'Day_03'
+    patching_group: 'DEV_1'
+    server: 'Dev789'
+  
+  - patching_day: 'Day_04'
+    patching_group: 'QA/UAT_1'
+    server: 'Dev321'
+  
+  - patching_day: 'Day_04'
+    patching_group: 'QA/UAT_1'
+    server: 'Dev654'
+  
+  - patching_day: 'Day_04'
+    patching_group: 'QA/UAT_1'
+    server: 'Dev987'
+  
+  - patching_day: 'Day_05'
+    patching_group: 'PROD_2'
+    server: 'Prod123'
+  
+  - patching_day: 'Day_05'
+    patching_group: 'PROD_2'
+    server: 'Prod456'
+  
+  - patching_day: 'Day_05'
+    patching_group: 'PROD_2'
+    server: 'Prod789'
+  
+  - patching_day: 'Day_06'
+    patching_group: 'PROD_3'
+    server: 'Prod147'
+  
+  - patching_day: 'Day_06'
+    patching_group: 'PROD_3'
+    server: 'Prod258'
+  
+  - patching_day: 'Day_06'
+    patching_group: 'PROD_3'
+    server: 'Prod369'
+  
