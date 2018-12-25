@@ -1,0 +1,23 @@
+---
+- name: copy a file
+  hosts: localhost 
+  vars_files:
+    - ./ymlvars.yml
+  tasks:
+    - name: "change1 creation"
+      debug:
+        msg: "{{ patch_day1 }} {{ patch_grp1 }} {{ patch_ser1 }}"
+    - name: "change1 creation"
+      debug:
+        msg: "{{ patch_day2 }} {{ patch_grp2 }} {{ patch_ser2 }}"
+    - name: "change1 creation"
+      debug:
+        msg: "{{ patch_day3 }} {{ patch_grp3 }} {{ patch_ser3 }}"
+    - name: "change1 creation"
+      debug:
+        msg: "{{ patch_day4 }} {{ patch_grp4 }} {{ patch_ser4 }}"
+    - name: "change1 creation"
+      debug:
+        msg: "{{ patch_day5 }} {{ patch_grp5 }} {{ patch_ser5 }}"
+
+...
