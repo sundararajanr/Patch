@@ -1,0 +1,13 @@
+---
+- name: copy a file
+  hosts: localhost 
+  vars_files:
+    - ./ymlvars.yml
+  tasks:
+    - name: "change1 creation"
+      debug:
+        msg: "{{ item }}" 
+      with_dict: "{{ inventory1 }}"
+      #with_dict: "{{ inventory }}"
+
+...
