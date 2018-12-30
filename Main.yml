@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+  become: false
+  gather_facts: false
+  tasks:
+    - name: Run python file
+      command: ./Reading_excel_file.py
