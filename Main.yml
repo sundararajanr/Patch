@@ -4,7 +4,8 @@
   become: false
   gather_facts: false
   tasks:
-    - name: Run python file
-      shell:
-        cmd: python https://github.com/sundararajanr/Patch/blob/master/Reading_Excel_file.py
-      
+    - name: find out the path
+      shell: pwd
+      register: cwd
+    - debug:
+      debug: var=cwd.stdout
