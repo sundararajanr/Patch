@@ -10,7 +10,7 @@ wb =openpyxl.load_workbook('/var/lib/awx/projects/_8__change_creation/Server_Inv
 source = wb['Sheet1']
 user_data = wb.get_sheet_by_name('Sheet1')
 def create_change(date,desc):
-    stream=open('change_creation.yml','r')
+    stream=open('/var/lib/awx/projects/_8__change_creation/change_creation.yml','r')
     data=yaml.load(stream)
 #    print(data)
     data[0]['tasks'][0]['snow_record']['data']['short_description']=desc
