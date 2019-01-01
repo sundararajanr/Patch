@@ -5,4 +5,4 @@
   gather_facts: false
   tasks:
     - name: Run python file
-      command: ./Reading_excel_file.py
+      command: "./Reading_excel_file.py"
