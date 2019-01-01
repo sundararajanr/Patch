@@ -13,7 +13,7 @@ print(user_data.max_row)
 
 def create_change(date,desc):
     stream=open('/var/lib/awx/projects/_8__change_creation/change_creation.yml','r')
-    data=yaml.load(stream)
+    #data=yaml.load(stream)
 #    print(data)
     #data[0]['tasks'][0]['snow_record']['data']['short_description']=desc
     #data[0]['tasks'][0]['snow_record']['data']['start_date']=date
