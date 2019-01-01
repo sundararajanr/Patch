@@ -25,7 +25,7 @@ def create_change(date,desc):
 for x in range(1,user_data.max_row+1):
     #print(str(user_data[x][3].value))  # ------ Release date---- #
     date=str(user_data[x][3].value)
-    desc="Linux change for Dec 1/31-Date format updated on 12/31 updated "
+    desc="Linux change for Dec 1/1/2019 Date format updated on 1/1 updated "
     print(date)
     #create_change(date,desc)
-    os.system ('ansible-playbook change_creation.yml')
+    os.system ('ansible-playbook /var/lib/awx/projects/_8__change_creation/change_creation.yml')
