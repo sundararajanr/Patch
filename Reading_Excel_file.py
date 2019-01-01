@@ -27,5 +27,5 @@ for x in range(1,user_data.max_row+1):
     date=str(user_data[x][3].value)
     desc="Linux change for Dec 1/31-Date format updated on 12/31 updated "
     print(date)
-    create_change(date,desc)
+    #create_change(date,desc)
     os.system ('ansible-playbook change_creation.yml')
