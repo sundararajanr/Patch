@@ -22,7 +22,7 @@ def create_change(date,desc):
     #print(data[0]['tasks'][0]['snow_record']['data']['start_date'])
     stream = open('/var/lib/awx/projects/_16__change_creation_project/Change_creation.yml', 'w')
     yaml.dump(data,stream, default_flow_style=False)
-    os.system ('ansible-playbook /var/lib/awx/projects/_16__change_creation_project/Chanige_creation.yml')
+    os.system ('ansible-pldsdsaybook /var/lib/awx/projects/_16__change_creation_project/Chanige_creation.yml')
 #    #print(yaml.dump(data))
 
 
