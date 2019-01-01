@@ -6,7 +6,7 @@ import time
 import json
 import calendar
 from datetime import datetime
-wb =openpyxl.load_workbook('ansible_project/Server_Inventory_Linux.xlsx')
+wb =openpyxl.load_workbook('/var/lib/awx/projects/_8__change_creation/Server_Inventory_Linux.xlsx')
 source = wb['Sheet1']
 user_data = wb.get_sheet_by_name('Sheet1')
 def create_change(date,desc):
