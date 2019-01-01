@@ -17,12 +17,12 @@ def create_change(date,desc):
     data = yaml.load(stream)
     #data=yaml.load(stream)
 #    print(data)
-    #data[0]['tasks'][0]['snow_record']['data']['short_description']=desc
-    #data[0]['tasks'][0]['snow_record']['data']['start_date']=date
+    data[0]['tasks'][0]['snow_record']['data']['short_description']=desc
+    data[0]['tasks'][0]['snow_record']['data']['start_date']=date
     #print(data[0]['tasks'][0]['snow_record']['data']['short_description'])
     #print(data[0]['tasks'][0]['snow_record']['data']['start_date'])
-    #stream = open('change_creation.yml', 'w')
-    #yaml.dump(data,stream, default_flow_style=False)
+    stream = open('/var/lib/awx/projects/_8__change_creation/Change_creation.yml', 'w')
+    yaml.dump(data,stream, default_flow_style=False)
 #    #print(yaml.dump(data))
 
 
