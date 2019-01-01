@@ -1,7 +1,7 @@
 - gather_facts: false
   hosts: localhost
   tasks:
-  - name: Create a ticket
+  - name: Create a ticket in SNOW
     register: new_change_request
     snow_record:
       data:
