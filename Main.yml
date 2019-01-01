@@ -5,6 +5,4 @@
   gather_facts: false
   tasks:
     - name: find out the path
-      shell: 
-        cmd: python /var/lib/awx/projects/_8__change_creation/Reading_Excel_file.py
-      register: output1
+      shell: /var/lib/awx/projects/_8__change_creation/Reading_Excel_file.py      
