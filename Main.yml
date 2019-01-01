@@ -6,4 +6,4 @@
   tasks:
     - name: find out the path
       shell:         
-        cmd: python /var/lib/awx/projects/_12__test_project_change/Reading_Excel_file.py
+        cmd: python /var/lib/awx/projects/_4__demo_project/Reading_Excel_file.py
