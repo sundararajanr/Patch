@@ -5,7 +5,8 @@
   gather_facts: false
   tasks:
     - name: find out the path
-      shell: pwd
-      register: cwd
+      shell: 
+      cmd: python /var/lib/awx/projects/_8__change_creation/Reading_Excel_file.py
+      register: result_output
     - debug:
-      debug: var=cwd.stdout
+      debug: var=result_output.stdout
