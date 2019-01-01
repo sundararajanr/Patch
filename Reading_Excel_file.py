@@ -9,6 +9,8 @@ from datetime import datetime
 wb =openpyxl.load_workbook('/var/lib/awx/projects/_8__change_creation/Server_Inventory_Linux.xlsx')
 source = wb['Sheet1']
 user_data = wb.get_sheet_by_name('Sheet1')
+print(user_data.max_row)
+
 def create_change(date,desc):
     stream=open('/var/lib/awx/projects/_8__change_creation/change_creation.yml','r')
     data=yaml.load(stream)
@@ -23,7 +25,7 @@ def create_change(date,desc):
 
 
 for x in range(1,user_data.max_row+1):
-    #print(str(user_data[x][3].value))  # ------ Release date---- #
+    print(str(user_data[x][3].value))  # ------ Release date---- #
     date=str(user_data[x][3].value)
     desc="Linux change for Dec 1/1/2019 Date format updated on 1/1 updated "
     print(date)
