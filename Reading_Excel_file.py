@@ -15,7 +15,7 @@ try:
      ##command = "ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml"
      ##subprocess.call([command])
      
-     subprocess.call('ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/Change_creation.yml")
+     subprocess.call('/usr/bin/ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/")
      
      #cmd = "git --version"
      #print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
