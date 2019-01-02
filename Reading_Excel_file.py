@@ -12,7 +12,7 @@ try:
      cmd = "git --version"
      print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
      print(os.system('ls'))
-     print("sundar")
+     print("Krishan and Prasath")
      os.system('ansible-playbook Change_cresundaration.yml') 
      #returned_value = os.system(cmd)  # returns the exit code in unix
      #print('returned value:', returned_value)
