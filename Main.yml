@@ -4,5 +4,5 @@
   become: false
   gather_facts: false
   tasks:
-    - name: find out the path
-      script: /var/lib/awx/projects/_18__snow_project/Reading_Excel_file.py
+    - name: Run the python file
+      command: python /var/lib/awx/projects/_18__snow_project/Reading_Excel_file.py
