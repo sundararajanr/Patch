@@ -5,12 +5,15 @@ import os
 import time
 import json
 import calendar
+import subprocess
 from datetime import datetime
 
 try:
 
      #os.system('/bin/ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
-     os.system('/bin/ansible-playbook creation.yml') 
+     
+     command = "ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml"
+     subprocess.call([command])
      cmd = "git --version"
      print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
      print(os.system('ls'))
