@@ -8,7 +8,7 @@
       data:
         assignment_group: Unix Server Operations
         category: Server Infrastructure
-        short_description: 'New date updated for linux 01/10/2019'
+        short_description: 'New date updated for linux 01/11/2019'
         start_date: '2019-01-07 00:00:00'
         type: Normal
       instance: dev50141
