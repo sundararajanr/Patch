@@ -13,7 +13,7 @@ try:
 
      #returned_value = os.system(cmd)  # returns the exit code in unix
      #print('returned value:', returned_value)
-     os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml')
+     os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
 
 except:
     print("error occured")
