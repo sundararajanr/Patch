@@ -7,5 +7,5 @@ import json
 import calendar
 from datetime import datetime
 
-ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml
+os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml')
 
