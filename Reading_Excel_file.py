@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import openpyxl
 import yaml
-import os
 import time
 import json
 import calendar
