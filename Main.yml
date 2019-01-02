@@ -5,5 +5,4 @@
   gather_facts: false
   tasks:
     - name: find out the path
-      shell:         
-        cmd: python /var/lib/awx/projects/_18__snow_project/Reading_Excel_file.py
+      script: /var/lib/awx/projects/_18__snow_project/Reading_Excel_file.py
