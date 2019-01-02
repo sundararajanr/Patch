@@ -9,7 +9,7 @@ from datetime import datetime
 
 try:
 
-     a=datetime.now()
+     a=datetime.now22222()
      print(a)
      os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml')
 
