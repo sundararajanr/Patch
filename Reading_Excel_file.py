@@ -7,5 +7,13 @@ import json
 import calendar
 from datetime import datetime
 
-os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml')
+try:
+
+     a=datetime.now()
+     print(a)
+     os.system ('ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml')
+
+except:
+    print("error occured")
+    raise 
 
