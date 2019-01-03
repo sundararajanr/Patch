@@ -24,6 +24,7 @@ try:
      call(["ansible-playbook", "~/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
      
      print("subprocess command completed")
+     print("RM team")
      
      #cmd = "git --version"
      #print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
