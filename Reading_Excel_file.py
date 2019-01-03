@@ -21,7 +21,7 @@ try:
      #subprocess.call('/usr/bin/ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/")
      #subprocess.call('ansible-playbook Change_creation.yml',shell="True",cwd="~/var/lib/awx/projects/_18__snow_project/Change_creation.yml")
      
-     call(["ansible-playbook", "~/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
+     call(["ansible-playbook", "/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
      
      print("subprocess command completed")
      print("RM team")
