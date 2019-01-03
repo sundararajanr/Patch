@@ -6,6 +6,8 @@ import time
 import json
 import calendar
 import subprocess
+
+from subprocess import call
 from datetime import datetime
 
 try:
@@ -17,7 +19,10 @@ try:
      
      print("subprocess command stated")
      #subprocess.call('/usr/bin/ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/")
-     subprocess.call('ansible-playbook Change_creation.yml',shell="True",cwd="~/var/lib/awx/projects/_18__snow_project/Change_creation.yml")
+     #subprocess.call('ansible-playbook Change_creation.yml',shell="True",cwd="~/var/lib/awx/projects/_18__snow_project/Change_creation.yml")
+     
+     call(["ansible-playbook", "/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
+     
      print("subprocess command finished")
      
      #cmd = "git --version"
