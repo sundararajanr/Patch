@@ -17,6 +17,7 @@ try:
      
      subprocess.call('/usr/bin/ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/")
      
+     print("sundar testing")
      #cmd = "git --version"
      #print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
      #print(os.system('ls'))
