@@ -8,22 +8,18 @@ import calendar
 import subprocess
 
 from datetime import datetime
+from subprocess import call
 
 try:
 
-     #os.system('/bin/ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
-     
-     ##command = "ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml"
-     ##subprocess.call([command])
-     
      print("subprocess command started")
-     #subprocess.call('/usr/bin/ansible-playbook Change_creation.yml',shell="True",cwd="/var/lib/awx/projects/_18__snow_project/")
-     #subprocess.call('ansible-playbook Change_creation.yml',shell="True",cwd="~/var/lib/awx/projects/_18__snow_project/Change_creation.yml")
      
      #call(["ansible-playbook", "/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
      
+     call(["ansible-playbook", "-i", "hosts", "Change_creation.yml"])
+     
      print("subprocess command completed")
-     print("RM team")
+     print("RM team1111")
      
      #cmd = "git --version"
      #print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
