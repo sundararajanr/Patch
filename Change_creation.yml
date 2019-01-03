@@ -11,8 +11,8 @@
         short_description: 'RM-Platform change 01/03/2019'
         start_date: '2019-01-08 00:00:00'
         type: Normal
-      instance: dev50141
-      password: Welsnow321#
+      instance: dev71301
+      password: Praveen@2
       state: present
       table: change_request
       username: admin
