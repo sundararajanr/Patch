@@ -7,7 +7,6 @@ import json
 import calendar
 import subprocess
 
-from subprocess import call
 from datetime import datetime
 
 try:
