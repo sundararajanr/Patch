@@ -6,7 +6,7 @@ import time
 import json
 import calendar
 import subprocess
-import configparser
+
 
 from datetime import datetime
 from subprocess import call
