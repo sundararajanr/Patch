@@ -14,7 +14,7 @@ try:
 
      print("subprocess command started")
      
-     call(["ansible-playbook", "/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
+     #call(["ansible-playbook", "/var/lib/awx/projects/_18__snow_project/Change_creation.yml"])
      
      #call(["ansible-playbook", "-i", "hosts", "Change_creation.yml"])
      
