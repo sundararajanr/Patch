@@ -18,9 +18,11 @@ try:
      
      #call(["ansible-playbook", "-i", "hosts", "Change_creation.yml"])
      
+     os.system('/bin/ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
+     
      print("subprocess command completed")
      
-     print("Process completed")
+     print("Process completed2222")
      
      #cmd = "git --version"
      #print(os.chdir('/var/lib/awx/projects/_18__snow_project/'))
