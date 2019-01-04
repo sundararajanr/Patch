@@ -1,4 +1,24 @@
 ---
+- gather_facts: false
+  hosts: localhost
+  tasks:
+  - name: Create a ticket in SNOW updated
+    register: new_change_request
+    snow_record:
+      data:
+        assignment_group: Unix Server Operations
+        category: Server Infrastructure
+        short_description: 'RM-Platform change 01/03/2019'
+        start_date: '2019-01-08 00:00:00'
+        type: Normal
+      instance: dev50141
+      password: Welsnow321#
+      state: present
+      table: change_request
+      username: admin
+    register: new_change_request
+  - debug: var=new_change_request.record.number
+
 - hosts: localhost
   connection: local
   become: false
