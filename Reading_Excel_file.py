@@ -18,7 +18,7 @@ try:
      
      #call(["ansible-playbook", "-i", "hosts", "Change_creation.yml"])
      
-     os.system('/bin/ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
+     os.system('sudo /bin/ansible-playbook /var/lib/awx/projects/_18__snow_project/Change_creation.yml') 
      
      print("subprocess command completed")
      
